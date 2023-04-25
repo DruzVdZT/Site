@@ -14,14 +14,14 @@ header{
 	font-size: 	1.2em;
 }
 #menu{
-	width: 20%;
-	background-color: rgb(255, 0, 0);
-	float: left;
+    display: none;
 }
 #content{
 	width: 80%;
 	background-color: aqua;
 	float: left;
+    text-align: right;
+    height: 470px;
 }
 footer{
 	height: 100px;
@@ -96,3 +96,16 @@ footer{
 	top: 0;
 	border-radius: 10px;
   }
+.mainmenu{
+    width: 24px;
+    height: 24px;
+}
+#menubutton:focus + #menu{
+    display: block;
+    width: 20%;
+	background-color: rgb(255, 0, 0);
+	float: left;
+}
+#menubutton:not(:focus) + #menu{
+    display: none;
+}
