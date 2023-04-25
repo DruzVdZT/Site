@@ -1,0 +1,33 @@
+.run1{
+	background-color: orange;
+	color: green;
+	font-size: 50px;
+}
+.run2{
+	background-color: yellow;
+	color: blue;
+	font-size: 50px;
+	width: 50%;
+}
+.run3{
+	background-color: blue;
+	color: yellow;
+	font-size: 50px;
+	width: 50%;
+}
+.run4{
+	background-color: yellow;
+	color: blue;
+	font-size: 50px;
+	width: 23%;
+	height: 200px;
+	text-align: center;
+}
+.run5{
+	background-color: blue;
+	color: yellow;
+	font-size: 50px;
+	width: 23%;
+	height: 200px;
+	text-align: center;
+}

@@ -1,0 +1,26 @@
+body{
+	background-image: url(https://user-images.githubusercontent.com/65335952/135041008-48e3d5df-c8ad-4a84-be4c-424cb1bc0335.gif);
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+}
+p{
+	font-size: 50px;
+	color:#000;
+	background-image: url(https://images.pexels.com/photos/1415734/pexels-photo-1415734.jpeg);
+	background-size: cover;
+}
+.d1{
+	height: 200px;
+	width: 200px;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHjUpvEeV0V-xtkzUSpPwCXUoG26xUTU331g&usqp=CAU);
+	background-size: cover;
+}
+.i1{
+	width: 200px;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 5px -5px 25px #198959;
+}

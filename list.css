@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+	background-color: lightyellow;
+}
+p{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+}
+ul, ol, dl{
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Pacifico', cursive;
+	margin-left: 25px;
+}
+.ul1{
+	list-style-type: circle;
+}
+.ul2{
+	list-style-type: square;
+}
+.ol1{
+	list-style-type: upper-roman;
+}
+.ol2{
+	list-style-type: upper-roman;
+}
+.ol3{
+	list-style-type: upper-roman;
+	margin-left: 45px;
+}
+.ol4{
+	list-style-type: upper-roman;
+	margin-left: 60px;
+}
+.li1 li{
+	list-style-type: "\2622";
+}
