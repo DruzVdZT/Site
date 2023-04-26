@@ -1,0 +1,36 @@
+body{
+	background-color: lightyellow;
+}
+p{
+	font-size: 	50px;
+	color: lightskyblue;
+	text-align: center;
+}
+table{
+	border: double 5px violet;
+	width: 	50%;
+	background: linear-gradient(#080, #00f, #f00, #ffa500, #ff0, #a020f0, #f02069);
+	border-collapse: collapse;
+	margin: auto;
+}
+th, td{
+	border: solid 2px blue;
+	width: 	25%;
+	height: 1.5cm;
+	font-size: 30px;
+}
+tr:hover{
+	background-color: lightskyblue;
+}
+tr:nth-child(even){
+	background-color: lime;
+}
+td:hover{
+	background: linear-gradient(#080, #00f, #f00, #ffa500, #ff0, #a020f0, #f02069);
+	font-size: 3em;
+	text-align: right;
+}
+caption{
+	font-size: 100px;
+	color: orange;
+}
